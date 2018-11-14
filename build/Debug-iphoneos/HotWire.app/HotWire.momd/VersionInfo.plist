@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>NSManagedObjectModel_CurrentVersionName</key>
+	<string>HotWire</string>
+	<key>NSManagedObjectModel_VersionHashes</key>
+	<dict>
+		<key>HotWire</key>
+		<dict>
+			<key>General</key>
+			<data>
+			yo2r6akItqoykBu12Pza3AQfQbmXGqgUCBXqjHc2a9U=
+			</data>
+			<key>Level</key>
+			<data>
+			Z07hcBP9n1JN5WrBllD55UkEuK/tQ+Ln0w2HVCKTR60=
+			</data>
+		</dict>
+	</dict>
+</dict>
+</plist>

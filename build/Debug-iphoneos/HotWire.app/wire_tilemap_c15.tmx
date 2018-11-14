@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map SYSTEM "http://mapeditor.org/dtd/1.0/map.dtd">
+<map version="1.0" orientation="orthogonal" width="40" height="40" tilewidth="50" tileheight="50">
+ <tileset name="Wire Tileset" firstgid="1" tilewidth="50" tileheight="50" spacing="2" margin="2">
+  <image source="wire_tileset.png"/>
+ </tileset>
+ <layer name="Wire" width="40" height="40">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAAO2TUQ7BQBCG17u6Rdtj4BTFKdQtyi3ELXAL3EJ558FMzMRkYosIEvm/5E93u7udL7vdEAAAAAAAnqP1awEAAAAAAPBxlpS9aR8ic+oH71aRte+SUjJpZ6atNRPKgFJR2sYpdXP92m/4TcWPnZbG9d7cT/pVUruQGuqibqnEoj5zysb09Zz5uaUsTD8xOb7gpz61q2PdYn6x5JQJpe++qW75C37+fG2NJr+S0qWM5enXrikdGeN/ZSeZUUZP+tn/hs+5kG+VkiLix2P+/g6cn98jHWPvpvM9hetdbEv9yvQ5eg/0fqjzvTmKzh2G6/7wnvH5dkx64bZ3M/P+3OAK/o8LySNswgAZAAA=
+  </data>
+ </layer>
+ <layer name="CrossWire" width="40" height="40">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAAO3MMQ0AAAjAMCwjFj88SOAgoU32LgIAAAAAgEty8VUTfNM3rsnAABkAAA==
+  </data>
+ </layer>
+</map>
