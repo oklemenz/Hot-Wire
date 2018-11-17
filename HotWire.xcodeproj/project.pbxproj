@@ -50,7 +50,6 @@
 		228238B212E70F1700010D48 /* UserData.m in Sources */ = {isa = PBXBuildFile; fileRef = 228238B112E70F1700010D48 /* UserData.m */; };
 		228239DB12E733B000010D48 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 228239DA12E733B000010D48 /* CoreData.framework */; };
 		22823A2212E739A300010D48 /* sparks.caf in Resources */ = {isa = PBXBuildFile; fileRef = 22823A2112E739A300010D48 /* sparks.caf */; };
-		22823A3612E73D6E00010D48 /* HotWire.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 22823A3412E73D6E00010D48 /* HotWire.xcdatamodeld */; };
 		22836F7D12D09E5F00B54E71 /* HotWireMenuScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 22836F7C12D09E5F00B54E71 /* HotWireMenuScene.m */; };
 		22836FB512D0A59700B54E71 /* menu_moon.png in Resources */ = {isa = PBXBuildFile; fileRef = 22836FA612D0A59700B54E71 /* menu_moon.png */; };
 		22836FB612D0A59700B54E71 /* menu_sun.png in Resources */ = {isa = PBXBuildFile; fileRef = 22836FA712D0A59700B54E71 /* menu_sun.png */; };
@@ -59,6 +58,9 @@
 		228370FB12D0AD8000B54E71 /* white_sun.png in Resources */ = {isa = PBXBuildFile; fileRef = 228370FA12D0AD8000B54E71 /* white_sun.png */; };
 		2286D9E412F29FEE00BF643F /* checked_flag.png in Resources */ = {isa = PBXBuildFile; fileRef = 2286D9E312F29FEE00BF643F /* checked_flag.png */; };
 		228C2CB812F5E8CD00B52279 /* GameData.m in Sources */ = {isa = PBXBuildFile; fileRef = 228C2CB712F5E8CD00B52279 /* GameData.m */; };
+		229BDB0B21A04A8E0030D645 /* HotWire.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 229BDB0921A04A8E0030D645 /* HotWire.xcdatamodeld */; };
+		229BDB1021A04B230030D645 /* UserDataLevel.m in Sources */ = {isa = PBXBuildFile; fileRef = 229BDB0C21A04B230030D645 /* UserDataLevel.m */; };
+		229BDB1121A04B230030D645 /* UserDataGeneral.m in Sources */ = {isa = PBXBuildFile; fileRef = 229BDB0F21A04B230030D645 /* UserDataGeneral.m */; };
 		22A2A17E12E4D05500C5B520 /* help.png in Resources */ = {isa = PBXBuildFile; fileRef = 22A2A17D12E4D05500C5B520 /* help.png */; };
 		22A2A18112E4D06600C5B520 /* HotWireHelpScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 22A2A18012E4D06600C5B520 /* HotWireHelpScene.m */; };
 		22B9E58A131980390006616A /* game_new_achievement.png in Resources */ = {isa = PBXBuildFile; fileRef = 22B9E56A13197ED10006616A /* game_new_achievement.png */; };
@@ -73,8 +75,6 @@
 		22D4B3EA1293B61800FE4638 /* finger_pos.png in Resources */ = {isa = PBXBuildFile; fileRef = 22D4B3E91293B61800FE4638 /* finger_pos.png */; };
 		22D5C3AD12D1ED2900206E41 /* menu.caf in Resources */ = {isa = PBXBuildFile; fileRef = 22D5C3AC12D1ED2900206E41 /* menu.caf */; };
 		22D5C3BC12D1EEEB00206E41 /* HotWireLevelScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 22D5C3BB12D1EEEB00206E41 /* HotWireLevelScene.m */; };
-		22D83900133C6E590024BEE3 /* UserDataLevel.m in Sources */ = {isa = PBXBuildFile; fileRef = 22D838FD133C6E590024BEE3 /* UserDataLevel.m */; };
-		22D83901133C6E590024BEE3 /* UserDataGeneral.m in Sources */ = {isa = PBXBuildFile; fileRef = 22D838FF133C6E590024BEE3 /* UserDataGeneral.m */; };
 		22D96CCB130827C600C1C3DF /* BlackBackground.m in Sources */ = {isa = PBXBuildFile; fileRef = 22D96CCA130827C600C1C3DF /* BlackBackground.m */; };
 		22D96D2F1308342D00C1C3DF /* level_not_available.png in Resources */ = {isa = PBXBuildFile; fileRef = 22D96D2E1308342D00C1C3DF /* level_not_available.png */; };
 		22DA098312D4799600536A51 /* menu_theme_moon.png in Resources */ = {isa = PBXBuildFile; fileRef = 22DA098012D4799500536A51 /* menu_theme_moon.png */; };
@@ -414,7 +414,6 @@
 		228238B112E70F1700010D48 /* UserData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserData.m; sourceTree = "<group>"; };
 		228239DA12E733B000010D48 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		22823A2112E739A300010D48 /* sparks.caf */ = {isa = PBXFileReference; lastKnownFileType = file; name = sparks.caf; path = sounds/sparks.caf; sourceTree = "<group>"; };
-		22823A3512E73D6E00010D48 /* HotWire.xcdatamodel */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = wrapper.xcdatamodel; path = HotWire.xcdatamodel; sourceTree = "<group>"; };
 		22836F7B12D09E5F00B54E71 /* HotWireMenuScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HotWireMenuScene.h; sourceTree = "<group>"; };
 		22836F7C12D09E5F00B54E71 /* HotWireMenuScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HotWireMenuScene.m; sourceTree = "<group>"; };
 		22836FA612D0A59700B54E71 /* menu_moon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = menu_moon.png; path = images/menu_moon.png; sourceTree = "<group>"; };
@@ -425,6 +424,11 @@
 		2286D9E312F29FEE00BF643F /* checked_flag.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = checked_flag.png; path = images/checked_flag.png; sourceTree = "<group>"; };
 		228C2CB612F5E8CD00B52279 /* GameData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameData.h; sourceTree = "<group>"; };
 		228C2CB712F5E8CD00B52279 /* GameData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameData.m; sourceTree = "<group>"; };
+		229BDB0A21A04A8E0030D645 /* HotWire.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = HotWire.xcdatamodel; sourceTree = "<group>"; };
+		229BDB0C21A04B230030D645 /* UserDataLevel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserDataLevel.m; sourceTree = "<group>"; };
+		229BDB0D21A04B230030D645 /* UserDataLevel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserDataLevel.h; sourceTree = "<group>"; };
+		229BDB0E21A04B230030D645 /* UserDataGeneral.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserDataGeneral.h; sourceTree = "<group>"; };
+		229BDB0F21A04B230030D645 /* UserDataGeneral.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserDataGeneral.m; sourceTree = "<group>"; };
 		22A2A17D12E4D05500C5B520 /* help.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = help.png; path = images/help.png; sourceTree = "<group>"; };
 		22A2A17F12E4D06600C5B520 /* HotWireHelpScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HotWireHelpScene.h; sourceTree = "<group>"; };
 		22A2A18012E4D06600C5B520 /* HotWireHelpScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HotWireHelpScene.m; sourceTree = "<group>"; };
@@ -440,10 +444,6 @@
 		22D5C3AC12D1ED2900206E41 /* menu.caf */ = {isa = PBXFileReference; lastKnownFileType = file; name = menu.caf; path = sounds/menu.caf; sourceTree = "<group>"; };
 		22D5C3BA12D1EEEB00206E41 /* HotWireLevelScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HotWireLevelScene.h; sourceTree = "<group>"; };
 		22D5C3BB12D1EEEB00206E41 /* HotWireLevelScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HotWireLevelScene.m; sourceTree = "<group>"; };
-		22D838FC133C6E590024BEE3 /* UserDataLevel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserDataLevel.h; sourceTree = "<group>"; };
-		22D838FD133C6E590024BEE3 /* UserDataLevel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserDataLevel.m; sourceTree = "<group>"; };
-		22D838FE133C6E590024BEE3 /* UserDataGeneral.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserDataGeneral.h; sourceTree = "<group>"; };
-		22D838FF133C6E590024BEE3 /* UserDataGeneral.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserDataGeneral.m; sourceTree = "<group>"; };
 		22D96CC9130827C600C1C3DF /* BlackBackground.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BlackBackground.h; sourceTree = "<group>"; };
 		22D96CCA130827C600C1C3DF /* BlackBackground.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BlackBackground.m; sourceTree = "<group>"; };
 		22D96D2E1308342D00C1C3DF /* level_not_available.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = level_not_available.png; path = images/level_not_available.png; sourceTree = "<group>"; };
@@ -968,6 +968,10 @@
 				228C2CB712F5E8CD00B52279 /* GameData.m */,
 				228238B012E70F1700010D48 /* UserData.h */,
 				228238B112E70F1700010D48 /* UserData.m */,
+				229BDB0E21A04B230030D645 /* UserDataGeneral.h */,
+				229BDB0F21A04B230030D645 /* UserDataGeneral.m */,
+				229BDB0D21A04B230030D645 /* UserDataLevel.h */,
+				229BDB0C21A04B230030D645 /* UserDataLevel.m */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -975,6 +979,7 @@
 		50F414EB1069373D002A0D5E /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				229BDB0921A04A8E0030D645 /* HotWire.xcdatamodeld */,
 				22E0AEBF1D89B44400E2A8F5 /* Images.xcassets */,
 				22EB459412F728510018CD92 /* wire_tilemap_c01.tmx */,
 				22EB459512F728510018CD92 /* wire_tilemap_c02.tmx */,
@@ -1027,7 +1032,6 @@
 				22EB45C412F728510018CD92 /* wire_tilemap_t23.tmx */,
 				22EB45C512F728510018CD92 /* wire_tilemap_t24.tmx */,
 				22EB45C612F728510018CD92 /* wire_tilemap_t25.tmx */,
-				22823A3412E73D6E00010D48 /* HotWire.xcdatamodeld */,
 				50F414ED1069373D002A0D5E /* fps_images.png */,
 				22E1547A1325542200879940 /* Levels.data */,
 				50F414EF1069373D002A0D5E /* Info.plist */,
@@ -1063,7 +1067,7 @@
 		29B97313FDCFA39411CA2CEA /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0930;
+				LastUpgradeCheck = 1010;
 				ORGANIZATIONNAME = "Oliver Klemenz";
 				TargetAttributes = {
 					1D6058900D05DD3D006BFB54 = {
@@ -1421,23 +1425,23 @@
 				221219F012A2E84B00621245 /* Lightning.m in Sources */,
 				22C8C1D812A4DAB300AC4095 /* Utilities.m in Sources */,
 				22836F7D12D09E5F00B54E71 /* HotWireMenuScene.m in Sources */,
+				229BDB1121A04B230030D645 /* UserDataGeneral.m in Sources */,
 				22D5C3BC12D1EEEB00206E41 /* HotWireLevelScene.m in Sources */,
 				22A2A18112E4D06600C5B520 /* HotWireHelpScene.m in Sources */,
 				22023EFB12E62DC4009E854E /* WireTileMap.m in Sources */,
 				227E916F12E6EA170008B486 /* SoundManager.m in Sources */,
 				228238B212E70F1700010D48 /* UserData.m in Sources */,
-				22823A3612E73D6E00010D48 /* HotWire.xcdatamodeld in Sources */,
 				22E163F012E83D390096C147 /* HotWireOptions.m in Sources */,
+				229BDB1021A04B230030D645 /* UserDataLevel.m in Sources */,
 				22E1695312E87D080096C147 /* HotWirePlaySelect.m in Sources */,
 				220A45C312EEAE3C0096349F /* HotWireCopyrightScene.m in Sources */,
 				2201349F12F499FB0032FF88 /* CheckedFlag.m in Sources */,
 				22E73A7E12F5D62E009FEBE0 /* TextureManager.m in Sources */,
+				229BDB0B21A04A8E0030D645 /* HotWire.xcdatamodeld in Sources */,
 				228C2CB812F5E8CD00B52279 /* GameData.m in Sources */,
 				22ED401512FC663500317B98 /* HighscoreView.m in Sources */,
 				22DB9CE013051DC10009AC8F /* GameCenterClient.m in Sources */,
 				22D96CCB130827C600C1C3DF /* BlackBackground.m in Sources */,
-				22D83900133C6E590024BEE3 /* UserDataLevel.m in Sources */,
-				22D83901133C6E590024BEE3 /* UserDataGeneral.m in Sources */,
 				22E77AB7133E2517008B9783 /* HotWireGameCenterSelect.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1469,7 +1473,6 @@
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				GCC_DYNAMIC_NO_PIC = NO;
-				GCC_ENABLE_FIX_AND_CONTINUE = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = HotWire_Prefix.pch;
@@ -1486,7 +1489,6 @@
 					"-all_load",
 					"-ObjC",
 				);
-				PREBINDING = NO;
 				PRODUCT_BUNDLE_IDENTIFIER = de.oklemenz.HotWire;
 				PRODUCT_NAME = HotWire;
 				PROVISIONING_PROFILE = "";
@@ -1505,7 +1507,6 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				GCC_ENABLE_FIX_AND_CONTINUE = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = HotWire_Prefix.pch;
 				GCC_TREAT_WARNINGS_AS_ERRORS = NO;
@@ -1521,7 +1522,6 @@
 					"-all_load",
 					"-ObjC",
 				);
-				PREBINDING = NO;
 				PRODUCT_BUNDLE_IDENTIFIER = de.oklemenz.HotWire;
 				PRODUCT_NAME = HotWire;
 				PROVISIONING_PROFILE = "";
@@ -1572,10 +1572,10 @@
 					"cocos2d-iphone-2.2/external/kazmath/include",
 				);
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				PREBINDING = NO;
 				PROVISIONING_PROFILE = "";
 				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
 				SDKROOT = iphoneos;
+				VALID_ARCHS = "$(ARCHS_STANDARD)";
 			};
 			name = Distribution;
 		};
@@ -1589,7 +1589,6 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				GCC_ENABLE_FIX_AND_CONTINUE = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = HotWire_Prefix.pch;
 				GCC_TREAT_WARNINGS_AS_ERRORS = NO;
@@ -1605,7 +1604,6 @@
 					"-all_load",
 					"-ObjC",
 				);
-				PREBINDING = NO;
 				PRODUCT_BUNDLE_IDENTIFIER = de.oklemenz.HotWire;
 				PRODUCT_NAME = HotWire;
 				PROVISIONING_PROFILE = "";
@@ -1662,8 +1660,8 @@
 				);
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				ONLY_ACTIVE_ARCH = YES;
-				PREBINDING = NO;
 				SDKROOT = iphoneos;
+				VALID_ARCHS = "$(ARCHS_STANDARD)";
 			};
 			name = Debug;
 		};
@@ -1708,8 +1706,8 @@
 					"cocos2d-iphone-2.2/external/kazmath/include",
 				);
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				PREBINDING = NO;
 				SDKROOT = iphoneos;
+				VALID_ARCHS = "$(ARCHS_STANDARD)";
 			};
 			name = Release;
 		};
@@ -1739,16 +1737,12 @@
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
-		22823A3412E73D6E00010D48 /* HotWire.xcdatamodeld */ = {
+		229BDB0921A04A8E0030D645 /* HotWire.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
-				22D838FC133C6E590024BEE3 /* UserDataLevel.h */,
-				22D838FD133C6E590024BEE3 /* UserDataLevel.m */,
-				22D838FE133C6E590024BEE3 /* UserDataGeneral.h */,
-				22D838FF133C6E590024BEE3 /* UserDataGeneral.m */,
-				22823A3512E73D6E00010D48 /* HotWire.xcdatamodel */,
+				229BDB0A21A04A8E0030D645 /* HotWire.xcdatamodel */,
 			);
-			currentVersion = 22823A3512E73D6E00010D48 /* HotWire.xcdatamodel */;
+			currentVersion = 229BDB0A21A04A8E0030D645 /* HotWire.xcdatamodel */;
 			path = HotWire.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;

@@ -54,7 +54,7 @@ typedef enum {
  - It can receive Mouse events on Mac
 */
 #ifdef __CC_PLATFORM_IOS
-@interface CCLayer : CCNode <CCAccelerometerDelegate, CCTouchAllAtOnceDelegate, CCTouchOneByOneDelegate>
+@interface CCLayer : CCNode <CCTouchAllAtOnceDelegate, CCTouchOneByOneDelegate>
 {
 	BOOL _touchEnabled;
 	NSInteger _touchPriority;
