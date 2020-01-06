@@ -807,13 +807,13 @@ const NSInteger	kCCZoomActionTag = 0xc0c05002;
 -(void) selected
 {
 	[super selected];
-	[[_subItems objectAtIndex:_selectedIndex] selected];
+	[(CCMenuItem *)[_subItems objectAtIndex:_selectedIndex] selected];
 }
 
 -(void) unselected
 {
 	[super unselected];
-	[[_subItems objectAtIndex:_selectedIndex] unselected];
+	[(CCMenuItem *)[_subItems objectAtIndex:_selectedIndex] unselected];
 }
 
 -(void) activate
